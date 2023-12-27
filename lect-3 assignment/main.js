@@ -96,15 +96,6 @@ const ProjectHeader = ()=>{
           </header> 
         );
     };
-
-
-
-
-
-
-
-
-
 console.log(Atul_passport);
 
 
