@@ -1,0 +1,15 @@
+.head{
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 1rem;
+}
+
+#input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
