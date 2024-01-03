@@ -1,1 +1,1 @@
-Namste React Assignements.
+Namste React Assignments.
