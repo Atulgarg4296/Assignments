@@ -1,0 +1,141 @@
+/* Main app */
+#app{
+    margin: 0px;
+    overflow-x: hidden;
+    /* height: 100vh; */
+}
+
+
+/* Header CSS */
+#app-header{
+    display: flex;
+    /* border: 1px black solid; */
+    /* background-color: whitesmoke; */
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-container{
+    /* border: 1px solid green; */
+    width: 400px;
+}
+
+.logo-container{
+    /* border: 1px solid red; */
+}
+
+.app-logo{
+    height: 150px;
+    width: 200px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li:hover{
+    background-color: antiquewhite;
+}
+
+/* Body CSS */
+#body{
+    /* border: 2px solid yellowgreen; */
+}
+
+/* Searchbar CSS */
+
+#search-container{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+.searchbar{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow: none;
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-top: 5px;
+    padding: 15px 10px;
+    height: 10px;
+    width: 600px;
+}
+.searchbutton{
+    /* border: 2px solid green; */
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 8px;
+    height: 30px;
+    width: 100px;
+    background-color: bisque;
+    border: none;
+
+}
+
+/*container and card CSS*/
+
+#card-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
+}
+
+#card{
+    /* border: 3px solid blue; */
+    border-radius: 10px;
+    height: 370px;
+    width: 250px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    
+
+}
+#card:hover{
+    background-color: antiquewhite;
+}
+.card-img{
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 150px;
+    width: 230px;
+    border-radius: 15px;
+}
+.card-details{
+      /* width: 250px; */
+      /* white-space: nowrap;
+      overflow: hidden;  */
+     
+}
+.card-details>h3{
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.card-details>h4{
+    font-family: 'DM Sans', sans-serif;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+
+/* footer */
+#footer{
+    margin-top: 200px;
+    /* border: 2px solid peru; */
+   
+}
